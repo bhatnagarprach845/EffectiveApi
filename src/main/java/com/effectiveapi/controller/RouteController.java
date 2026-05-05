@@ -10,8 +10,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/monitor")
-//@CrossOrigin(origins = "*") // Critical for AWS Amplify frontend
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*") // Critical for AWS Amplify frontend
+//@CrossOrigin(origins = "http://localhost:5173")
 public class RouteController {
 
     @Autowired
